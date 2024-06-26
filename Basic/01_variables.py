@@ -1,5 +1,4 @@
 ### VARIABLES ###
-
 # Espacios que se almacenan en la memoria de nuestro programa
 # Como indica su nombre, son variables, es decir, se pueden modificar
 # Las variables se declaran con un nombre y un valor
