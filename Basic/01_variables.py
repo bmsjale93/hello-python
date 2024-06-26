@@ -62,3 +62,11 @@ print("ola" in bienvenida)  # True
 print("Pedro" in bienvenida)  # False
 print("Pedro" not in bienvenida)  # True
 print("hola" not in bienvenida)  # True, ya que es case sensitive
+
+# Definiendo una variable con camelCase
+nombreUsuario = "Alejandro"
+print(nombreUsuario)
+
+# Definiendo una variable con snake_case (recomendado)
+nombre_usuario = "Alejandro"
+print(nombre_usuario)
