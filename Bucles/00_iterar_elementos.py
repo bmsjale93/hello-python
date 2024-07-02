@@ -1,4 +1,6 @@
-### ITERANDO SOBRE LISTAS o TUPLAS ###
+### ITERANDO SOBRE LISTAS, TUPLAS o CONJUNTOS ###
+# Esta forma de iterar es muy común en Python
+# Funciona exactamente igual para listas, tuplas y conjuntos
 
 animales = ["gato", "perro", "tigre", "leon"]
 print("---------------------------")
