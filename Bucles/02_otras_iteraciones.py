@@ -49,3 +49,4 @@ print("-------------------")
 # Podemos realizar esta iteración for con una linea de código
 numeros_duplicados = [x*2 for x in numeros]
 print(numeros_duplicados)
+print("-------------------")
