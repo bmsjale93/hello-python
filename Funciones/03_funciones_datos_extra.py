@@ -29,7 +29,6 @@ print("-------------------")
 def frase(nombre, apellido, adjetivo="tonto"):
     return f"Hola {nombre} {apellido}, eres muy {adjetivo}"
 
-
 frase_resultado = frase("Alex", "Delgado", "inteligente")
 print(frase_resultado)
 print("-------------------")
