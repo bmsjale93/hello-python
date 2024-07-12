@@ -1,4 +1,4 @@
-# EJERCICIO 1
+# EJERCICIO 2
 
 """
 Crearemos una función que al pasarle un número, nos genere números primos hasta llegar a ese número.
