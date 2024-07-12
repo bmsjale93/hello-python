@@ -1,0 +1,9 @@
+Esta es una linea nueva de texto.
+Esta es otra linea de texto.Estamos agregando nuevas lineas al archivo.
+Funciona muy parecido a append().
+Este es el final del archivo.
+Esta es la linea 1 del archivo.
+Esta es la linea 2 del archivo.
+Esta es la linea 3 del archivo.
+Esta es la linea 4 del archivo.
+Esta es la linea 5 del archivo.
