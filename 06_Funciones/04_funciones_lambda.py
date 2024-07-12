@@ -19,7 +19,6 @@ print(multiplicar_por_dos(5))
 #     return x * 2
 
 # APLICACIONES DE LAMBDA
-
 numero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # Creamos una función común que filtre los números pares
@@ -32,5 +31,5 @@ numeros_pares = filter(es_par, numero)
 print(f"Resultado de función común:\t{list(numeros_pares)}")
 
 # Ahora, crearemos lo mismo pero con Lambda
-num_pares = filter(lambda num:num%2==0, numero)
+num_pares = filter(lambda num:num%2 == 0, numero)
 print(f"Resultado de función lambda:\t{list(num_pares)}")
