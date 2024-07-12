@@ -7,18 +7,26 @@ a) Pedir la edad de los compañeros que vinieron hoy a clase y ordenar los datos
 b) El mayor es el profesor y el menor es el asistente. Mostrar en pantalla quién es el profesor y quién es el asistente.
 """
 
-# Pedimos los nombres y la edad de los compañeros que están hoy en clase.
-
-
+# Función para obtener el asistente y el profesor según la edad.
 def obtener_compañero(cantidad_compañeros):
+    
+    # Creamos la lista con los compañeros
     compañeros = []
+    
+    # Ejecutamos un for para pedir la información de cada compañero
     for i in range(cantidad_compañeros):
         nombre = input("Ingresa el nombre del compañero: ")
         edad = int(input("Ingresa la edad del compañero: "))
         print("")
         compañero = (nombre, edad)
+        
+        # Agregamos la información a la lista
         compañeros.append(compañero)
-    compañeros.sort(key=lambda x:x[1]) # Esto ordenará la lista en base a la edad
+    
+    # Ordenándolos de menor a mayor según la edad.
+    compañeros.sort(key=lambda x:x[1])
+    
+    # El compañero[x] devuelve una tupla con (nombre, edad) y después accedemos al nombre.
     asistente = compañeros[0][0] # Tras el orden, primer elementos por su nombre.
     profesor = compañeros[-1][0] # Tras el orden, último elemento por su nombre.
     return asistente, profesor
