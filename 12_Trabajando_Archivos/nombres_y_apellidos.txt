@@ -1,0 +1,20 @@
+Los datos son:
+
+Nombre: Alex
+Apellido: Garcia
+--------------------
+Nombre: Juan
+Apellido: Perez
+--------------------
+Nombre: Pedro
+Apellido: Lopez
+--------------------
+Nombre: Jesus
+Apellido: Gonzalez
+--------------------
+Nombre: Maria
+Apellido: Rodriguez
+--------------------
+Nombre: Ana
+Apellido: Fernandez
+--------------------
