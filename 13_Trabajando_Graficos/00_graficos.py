@@ -37,3 +37,30 @@ print(f"Total de Ingresos: {total_ingresos}€")
 
 # Mostramos el gráfico
 plt.show()
+
+
+"""
+EJERCICIO 3:
+Trabajando con gráficos de dispersión.
+"""
+
+df = pd.read_csv("./dispersion.csv")
+
+# Creamos el Gráfico de Líneas con Seaborn
+sns.scatterplot(x="tiempo", y="dinero", data=df)
+
+# Mostramos el gráfico
+plt.show()
+
+"""
+EJERCICIO 4:
+Trabajando con gráficos de cajas.
+"""
+
+df = pd.read_csv("./bigotes.csv")
+
+# Creamos el Gráfico de Líneas con Seaborn
+sns.boxplot(x="categoria", y="valor", data=df)
+
+# Mostramos el gráfico
+plt.show()
