@@ -1,6 +1,7 @@
-###  HERENCIA JERARQUICO ###
-# La herencia jerarquica es un tipo de herencia en la que una clase hija hereda de una clase padre.
-# La clase padre puede tener una o más clases hijas.
+###  HERENCIA MÚLTIPLE ###
+# La herencia múltiple es un tipo de herencia en la que una clase hija hereda de dos o más clases padres.
+# La herencia múltiple permite a una clase hija heredar atributos y métodos de dos o más clases padres.
+# La herencia múltiple se utiliza en lenguajes de programación como Python.
 
 # CLASE PADRE
 class Persona:
