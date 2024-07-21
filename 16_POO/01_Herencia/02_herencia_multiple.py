@@ -18,7 +18,7 @@ class Artista:
         self.habilidad = habilidad
         
     def mostrar_habilidad(self):
-        print(f"Mi habilidad es {self.habilidad}...")
+        return f"Mi habilidad es {self.habilidad}"
 
 
 # CLASE HIJA
@@ -29,3 +29,16 @@ class EmpleadoArtista(Persona, Artista):
         self.trabajo = trabajo
         self.salario = salario
         
+    def presentarse(self):
+        print(f"Hola, soy {self.nombre}, {super().mostrar_habilidad()} y trabajo en {self.trabajo}")
+        
+roberto = EmpleadoArtista("Roberto", 30, "Argentina", "Cantar", "Desarrollador", 50000)
+roberto.presentarse()
+
+# Como podemos saber si una clase es hija de otra clase?
+herencia = issubclass(EmpleadoArtista, Persona)
+print(herencia) # True
+
+# Y si quereos saber si un objeto es una instancia de una clase?
+instancia = isinstance(roberto, Persona)
+print(instancia) # True
